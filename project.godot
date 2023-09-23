@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Turn-Based RPG"
+run/main_scene="res://BattleScene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="Turn-Based RPG"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.282353, 0.105882, 0.356863, 1)

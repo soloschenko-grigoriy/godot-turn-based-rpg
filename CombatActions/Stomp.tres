@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CombatAction" load_steps=2 format=3 uid="uid://brexiwxdhuwv0"]
+
+[ext_resource type="Script" path="res://CombatAction.gd" id="1_riepg"]
+
+[resource]
+script = ExtResource("1_riepg")
+display_name = "Stomp (8 DMG)"
+damage = 8
+heal = 0
